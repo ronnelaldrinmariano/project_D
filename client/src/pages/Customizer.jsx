@@ -53,7 +53,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('http://localhost:8080/api/v1/mariano', {
+      const response = await fetch('https://project-d-ai-mariano.onrender.com/api/v1/mariano', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
